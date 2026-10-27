@@ -1,10 +1,12 @@
 ﻿namespace gitprac;
-
+using extention;
 class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("hi hrithik !");
-        Console.WriteLine("This is my add student feature branch.");
+        List<int> marks = new List<int>(){1,2,2,3,3,};
+        
+        marks.display();
+        
     }
 }
